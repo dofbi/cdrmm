@@ -94,6 +94,10 @@ body {
 	height: 32px;
 	padding-top: 10px;
 }
+#contener #header #header_milieu #header_milieu_d #header_milieu_b ul li.nontrai {
+	background-image: none;
+}
+
 #contener #header #header_milieu #header_milieu_d #header_milieu_b ul li a {
 	color: #FFF;
 	text-decoration: none;
