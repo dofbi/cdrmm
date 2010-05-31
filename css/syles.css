@@ -1,0 +1,111 @@
+@charset "utf-8";
+body {
+	background-color: #FFF;
+	background-image: url(../images/fond.jpg);
+	background-repeat: repeat-x;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+#contener {
+	padding: 0px;
+	width: 957px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+#contener #header {
+	margin: 0px;
+	padding: 0px;
+	height: 121px;
+	width: 957px;
+}
+#contener #header div {
+	display: inline;
+	float: left;
+}
+#contener #header img {
+	border:none;
+}
+
+#contener #header #header_gauche {
+	background-image: url(../images/header_gauche.jpg);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	height: 121px;
+	width: 15px;
+}
+#contener #header #header_milieu {
+	background-color: #FFF;
+	background-image: url(../images/header_milieu.jpg);
+	background-repeat: repeat-x;
+	margin: 0px;
+	padding: 0px;
+	height: 121px;
+	width: 927px;
+}
+#contener #header #header_milieu #header_milieu_g {
+	margin: 0px;
+	width: 153px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 6px;
+}
+#contener #header #header_milieu #header_milieu_d {
+	height: 112px;
+	width: 764px;
+}
+#contener #header #header_milieu #header_milieu_d #header_milieu_d_h {
+	margin: 0px;
+	width: 669px;
+	padding-top: 12px;
+	padding-right: 95px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	text-align: right;
+}
+#contener #header #header_milieu #header_milieu_d #header_milieu_b {
+	margin: 0px;
+	height: 42px;
+	width: 734px;
+	padding-top: 13px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+}
+#contener #header #header_milieu #header_milieu_d #header_milieu_b ul {
+	list-style-type: none;
+	padding: 0px;
+	height: 32px;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#contener #header #header_milieu #header_milieu_d #header_milieu_b ul li {
+	display: inline;
+	background-image: url(../images/menu_trai.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	float: left;
+	height: 32px;
+	padding-top: 10px;
+}
+#contener #header #header_milieu #header_milieu_d #header_milieu_b ul li a {
+	color: #FFF;
+	text-decoration: none;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-size: 14px;
+}
+#contener #header #header_droite {
+	background-image: url(../images/header_droit.jpg);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	height: 121px;
+	width: 15px;
+}
