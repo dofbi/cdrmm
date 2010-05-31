@@ -113,3 +113,63 @@ body {
 	height: 121px;
 	width: 15px;
 }
+#contener #contenu {
+	background-image: url(../images/fonde_contenu.png);
+	background-repeat: repeat-y;
+	height: 500px;
+	width: 957px;
+}
+#contener #pied {
+	height: 34px;
+	width: 957px;
+	margin: 0px;
+	padding: 0px;
+}
+#contener #pied div {
+	display: inline;
+}
+#contener #pied #pied_gauche {
+	background-image: url(../images/piend_gauche.png);
+	background-repeat: no-repeat;
+	height: 34px;
+	margin: 0px;
+	padding: 0px;
+	width: 19px;
+	float: left;
+}
+#contener #pied #pied_milieu {
+	background-image: url(../images/piend_milieu.png);
+	background-repeat: repeat-x;
+	height: 28px;
+	width: 919px;
+	margin: 0px;
+	float: left;
+	text-align: center;
+	padding-top: 6px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#contener #pied #pied_milieu ul {
+	list-style-type: none;
+}
+#contener #pied #pied_milieu ul li {
+	display: inline;
+}
+#contener #pied #pied_milieu ul li a {
+	color: #282828;
+	text-decoration: none;
+	margin-right: 5px;
+	margin-left: 5px;
+	font-size: 9px;
+}
+
+#contener #pied #pied_droite {
+	background-image: url(../images/piend_droite.png);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	height: 34px;
+	width: 19px;
+	float: right;
+}
