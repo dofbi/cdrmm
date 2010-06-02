@@ -116,8 +116,9 @@ body {
 #contener #contenu {
 	background-image: url(../images/fonde_contenu.png);
 	background-repeat: repeat-y;
-	height: 500px;
+	min-height:500px;
 	width: 957px;
+	padding: 10px;
 }
 #contener #pied {
 	height: 34px;
@@ -172,4 +173,239 @@ body {
 	height: 34px;
 	width: 19px;
 	float: right;
+}
+
+
+/*Cadre*/
+#contenu div{
+	display:inline;
+	float: left;
+}
+#contenu #cadre01 {
+	margin: 10px;
+	padding: 0px;
+	width: 424px;
+}
+#cadre01 div{
+	display:block;
+}
+#cadre01 #cadre01_haut{
+	margin: 0px;
+	padding: 0px;
+	width: 424px;
+}
+#cadre01 #cadre01_haut div{
+	display: inline;
+	float: left;
+}
+#cadre01_haut #cadre01_haut_g {
+	background-image: url(../images/cadre01_haut_g.jpg);
+	background-repeat: no-repeat;
+	height: 12px;
+	width: 12px;
+}
+#cadre01_haut #cadre01_haut_m {
+	background-image: url(../images/cadre01_haut_m.jpg);
+	background-repeat: repeat-x;
+	height: 12px;
+	width: 400px;
+}
+#cadre01_haut #cadre01_haut_d {
+	background-image: url(../images/cadre01_haut_d.jpg);
+	background-repeat: no-repeat;
+	height: 12px;
+	width: 12px;
+}
+#cadre01 #cadre01_milieu {
+	background-image: url(../images/cadre01_milieu.jpg);
+	background-repeat: repeat-x;
+	height: 345px;
+	width: 412px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #B5B5B5;
+	border-left-color: #B5B5B5;
+	background-color: #DBDBDB;
+	padding: 5px;
+}
+#cadre01 #cadre01_bas{
+	margin: 0px;
+	padding: 0px;
+	width: 450px;
+}
+#cadre01 #cadre01_bas div{
+	display: inline;
+	float: left;
+}
+#cadre01_bas #cadre01_bas_g {
+	background-image: url(../images/cadre01_bas_g.jpg);
+	background-repeat: no-repeat;
+	height: 12px;
+	width: 12px;
+}
+#cadre01_bas #cadre01_bas_m {
+	background-image: url(../images/cadre01_bas_m.jpg);
+	background-repeat: repeat-x;
+	height: 12px;
+	width: 400px;
+}
+#cadre01_bas #cadre01_bas_d {
+	background-image: url(../images/cadre01_bas_d.jpg);
+	background-repeat: no-repeat;
+	height: 12px;
+	width: 12px;
+}
+#contenu #cadre02, #contenu #cadre03, #contenu #cadre04 {
+	margin: 10px;
+	padding: 0px;
+	width: 456px;
+}
+#cadre02 div, #cadre03 div, #cadre04 div{
+	display:block;
+}
+#cadre02 #cadre02_haut, #cadre03 #cadre03_haut, #cadre04 #cadre04_haut{
+	margin: 0px;
+	padding: 0px;
+	width: 466px;
+}
+#cadre02 #cadre02_haut div, #cadre03 #cadre03_haut div, #cadre04 #cadre04_haut div{
+	display: inline;
+	float: left;
+}
+#cadre02_haut #cadre02_haut_g, #cadre03_haut #cadre03_haut_g , #cadre04_haut #cadre04_haut_g  {
+	background-image: url(../images/cadre02_haut_g.jpg);
+	background-repeat: no-repeat;
+	height: 12px;
+	width: 15px;
+}
+#cadre02_haut #cadre02_haut_m, #cadre03_haut #cadre03_haut_m, #cadre04_haut #cadre04_haut_m {
+	background-image: url(../images/cadre02_haut_m.jpg);
+	background-repeat: repeat-x;
+	height: 12px;
+	width: 434px;
+}
+#cadre02_haut #cadre02_haut_d, #cadre03_haut #cadre03_haut_d, #cadre04_haut #cadre04_haut_d  {
+	background-image: url(../images/cadre02_haut_d.jpg);
+	background-repeat: no-repeat;
+	height: 12px;
+	width: 15px;
+}
+#cadre02 #cadre02_milieu, #cadre03 #cadre03_milieu, #cadre04 #cadre04_milieu {
+	background-image: url(../images/cadre02_milieu.jpg);
+	background-repeat: repeat-x;
+	height: 60px;
+	width: 452px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #B5B5B5;
+	border-left-color: #B5B5B5;
+	background-color: #DBDBDB;
+	padding: 5px;
+}
+#cadre02 #cadre02_bas, #cadre03 #cadre03_bas, #cadre04 #cadre04_bas{
+	margin: 0px;
+	padding: 0px;
+	width: 466px;
+}
+#cadre02 #cadre02_bas div, #cadre03 #cadre03_bas div, #cadre04 #cadre04_bas div{
+	display: inline;
+	float: left;
+}
+#cadre02_bas #cadre02_bas_g, #cadre03_bas #cadre03_bas_g, #cadre04_bas #cadre04_bas_g {
+	background-image: url(../images/cadre02_bas_g.jpg);
+	background-repeat: no-repeat;
+	height: 13px;
+	width: 15px;
+}
+#cadre02_bas #cadre02_bas_m, #cadre03_bas #cadre03_bas_m, #cadre04_bas #cadre04_bas_m {
+	background-image: url(../images/cadre02_bas_m.jpg);
+	background-repeat: repeat-x;
+	height: 13px;
+	width: 434px;
+}
+#cadre02_bas #cadre02_bas_d, #cadre03_bas #cadre03_bas_d, #cadre04_bas #cadre04_bas_d {
+	background-image: url(../images/cadre02_bas_d.jpg);
+	background-repeat: no-repeat;
+	height: 13px;
+	width: 15px;
+}
+#contenu #cadre05, #contenu #cadre06 {
+	margin: 10px;
+	padding: 0px;
+	width: 220px;
+}
+#cadre05 div, #cadre06 div{
+	display:block;
+}
+#cadre05 #cadre05_haut, #cadre06 #cadre06_haut{
+	margin: 0px;
+	padding: 0px;
+	width: 229px;
+}
+#cadre05 #cadre05_haut div, #cadre06 #cadre06_haut div{
+	display: inline;
+	float: left;
+}
+#cadre05_haut #cadre05_haut_g, #cadre06_haut #cadre06_haut_g {
+	background-image: url(../images/cadre05_haut_g.jpg);
+	background-repeat: no-repeat;
+	height: 12px;
+	width: 12px;
+}
+#cadre05_haut #cadre05_haut_m, #cadre06_haut #cadre06_haut_m {
+	background-image: url(../images/cadre05_haut_m.jpg);
+	background-repeat: repeat-x;
+	height: 12px;
+	width: 198px;
+}
+#cadre05_haut #cadre05_haut_d, #cadre06_haut #cadre06_haut_d  {
+	background-image: url(../images/cadre05_haut_d.jpg);
+	background-repeat: no-repeat;
+	height: 12px;
+	width: 12px;
+}
+#cadre05 #cadre05_milieu, #cadre06 #cadre06_milieu {
+	background-image: url(../images/cadre05_milieu.jpg);
+	background-repeat: repeat-x;
+	height: 79px;
+	width: 210px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #B5B5B5;
+	border-left-color: #B5B5B5;
+	background-color: #DBDBDB;
+	padding: 5px;
+}
+#cadre05 #cadre05_bas, #cadre06 #cadre06_bas{
+	margin: 0px;
+	padding: 0px;
+	width: 229px;
+}
+#cadre05 #cadre05_bas div, #cadre06 #cadre06_bas div{
+	display: inline;
+	float: left;
+}
+#cadre05_bas #cadre05_bas_g, #cadre06_bas #cadre06_bas_g {
+	background-image: url(../images/cadre05_bas_g.jpg);
+	background-repeat: no-repeat;
+	height: 12px;
+	width: 12px;
+}
+#cadre05_bas #cadre05_bas_m, #cadre06_bas #cadre06_bas_m {
+	background-image: url(../images/cadre05_bas_m.jpg);
+	background-repeat: repeat-x;
+	height: 12px;
+	width: 198px;
+}
+#cadre05_bas #cadre05_bas_d, #cadre06_bas #cadre06_bas_d {
+	background-image: url(../images/cadre05_bas_d.jpg);
+	background-repeat: no-repeat;
+	height: 12px;
+	width: 12px;
 }
