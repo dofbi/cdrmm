@@ -474,6 +474,15 @@ h3{
 	padding-bottom: 0px;
 	padding-left: 9px;
 }
+#cadre01_milieu div.trai_haut {
+	height: 265px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #006F3B;
+	width: 0px;
+	margin-top: 42px;
+}
+
 #cadre02_milieu h3, #cadre03_milieu h3{
 	color: #006F3B;
 	margin: 0px;
