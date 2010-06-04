@@ -15,6 +15,54 @@ h2{
 h3{
 	font-size: 1.2em;
 }
+label {
+	font-weight: bold;
+	padding-left: 10px;
+}
+table {
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+
+th {
+	font-size: 12px;
+	background-color: #E3F5FB;
+	height: 30px;
+	text-align: center;
+	padding-top: 2px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #006633;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #006633;
+}
+th:last-child{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #006633;
+	border-right-style: none;
+}
+td {
+	text-align: center;
+	height: 30px;
+	padding-top: 10px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #006633;
+}
+td:last-child{
+	border:none;
+}
+tr.vert{
+	background-color: #E3F5FB;	
+}
+input, select{
+	border: 1px solid #006F3B;
+	margin-left: 10px;
+}
 
 #contener {
 	padding: 0px;
@@ -142,15 +190,15 @@ h3{
 #contener #contenu {
 	background-image: url(../images/fonde_contenu.png);
 	background-repeat: repeat-y;
-	min-height:500px;
 	width: 957px;
 	padding: 10px;
+	float:left;
 }
 #contener #pied {
-	height: 34px;
 	width: 957px;
 	margin: 0px;
 	padding: 0px;
+	color: #006F3B;
 }
 #contener #pied div {
 	display: inline;
@@ -441,6 +489,79 @@ h3{
 	height: 12px;
 	width: 12px;
 }
+#contenu #cadre07{
+	padding: 0px;
+	width: 540px;
+	margin-top: 2px;
+	margin-right: 0px;
+	margin-bottom: 2px;
+	margin-left: 56px;
+}
+#cadre07 div{
+	display:block;
+}
+#cadre07 #cadre07_haut{
+	margin: 0px;
+	padding: 0px;
+	width: 552px;
+}
+#cadre07 #cadre07_haut div{
+	display: inline;
+	float: left;
+}
+#cadre07_haut #cadre07_haut_g{
+	background-image: url(../images/cadre07_haut_g.jpg);
+	background-repeat: no-repeat;
+	height: 9px;
+	width: 9px;
+}
+#cadre07_haut #cadre07_haut_m{
+	height: 9px;
+	width: 533px;
+	background-color: #006F3C;
+}
+#cadre07_haut #cadre07_haut_d{
+	background-image: url(../images/cadre07_haut_d.jpg);
+	background-repeat: no-repeat;
+	height: 9px;
+	width: 9px;
+}
+#cadre07 #cadre07_milieu{
+	background-image: url(../images/cadre07_milieu.jpg);
+	background-repeat: repeat-x;
+	height: 90px;
+	width: 541px;
+	padding: 5px;
+	background-position: 0px 5px;
+	background-color: #01703D;
+}
+#cadre07 #cadre07_bas{
+	margin: 0px;
+	padding: 0px;
+	width: 552px;
+}
+#cadre07 #cadre07_bas div{
+	display: inline;
+	float: left;
+}
+#cadre07_bas #cadre07_bas_g{
+	background-image: url(../images/cadre07_bas_g.jpg);
+	background-repeat: no-repeat;
+	height: 9px;
+	width: 9px;
+}
+#cadre07_bas #cadre07_bas_m{
+	background-image: url(../images/cadre07_bas_m.jpg);
+	background-repeat: repeat-x;
+	height: 9px;
+	width: 533px;
+}
+#cadre07_bas #cadre07_bas_d{
+	background-image: url(../images/cadre07_bas_d.jpg);
+	background-repeat: no-repeat;
+	height: 9px;
+	width: 9px;
+}
 /*forme*/
 #cadre01_milieu div {
 	margin: 6px;
@@ -509,6 +630,15 @@ h3{
 	margin: 0px;
 	padding: 0px;
 }
+#cadre07 #cadre07_milieu h3 {
+	padding: 0px;
+	color: #FFF;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+
 /*menu*/
 #contenu #menu {
 	float: left;
@@ -587,7 +717,7 @@ h3{
 	padding-top: 0px;
 	padding-right: 10px;
 	padding-bottom: 0px;
-	padding-left: 0px;
+	padding-left: 5px;
 }
 #corps h2{
 	background-image: url(../images/corps_gold.jpg);
