@@ -72,6 +72,15 @@ input, select{
 	margin-bottom: 0px;
 	margin-left: auto;
 }
+.login {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding-left: 164px;
+	padding-top: 8px;
+}
+
 
 #contener #header {
 	margin: 0px;
@@ -562,6 +571,83 @@ input, select{
 	height: 9px;
 	width: 9px;
 }
+#contenu #cadre08{
+	padding: 0px;
+	width: 312px;
+	margin-top: 2px;
+	margin-right: 0px;
+	margin-bottom: 2px;
+	margin-left: 176px;
+}
+#cadre08 div{
+	display:block;
+}
+#cadre08 #cadre08_haut{
+	margin: 0px;
+	padding: 0px;
+	width: 327px;
+}
+#cadre08 #cadre08_haut div{
+	display: inline;
+	float: left;
+}
+#cadre08_haut #cadre08_haut_g{
+	background-image: url(../images/cadre08_haut_g.jpg);
+	background-repeat: no-repeat;
+	height: 8px;
+	width: 9px;
+}
+#cadre08_haut #cadre08_haut_m{
+	height: 8px;
+	width: 309px;
+	background-image: url(../images/cadre08_haut_m.jpg);
+	background-repeat: repeat-x;
+}
+#cadre08_haut #cadre08_haut_d{
+	background-image: url(../images/cadre08_haut_d.jpg);
+	background-repeat: no-repeat;
+	height: 8px;
+	width: 9px;
+}
+#cadre08 #cadre08_milieu{
+	background-image: url(../images/cadre08_milieu.jpg);
+	background-repeat: repeat-x;
+	height: 119px;
+	width: 312px;
+	background-position: 0px 0px;
+	padding-top: 56px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	margin: 0px;
+}
+#cadre08 #cadre08_bas{
+	margin: 0px;
+	padding: 0px;
+	width: 327px;
+}
+#cadre08 #cadre08_bas div{
+	display: inline;
+	float: left;
+}
+#cadre08_bas #cadre08_bas_g{
+	background-image: url(../images/cadre08_bas_g.jpg);
+	background-repeat: no-repeat;
+	height: 8px;
+	width: 9px;
+}
+#cadre08_bas #cadre08_bas_m{
+	background-image: url(../images/cadre08_bas_m.jpg);
+	background-repeat: repeat-x;
+	height: 8px;
+	width: 309px;
+}
+#cadre08_bas #cadre08_bas_d{
+	background-image: url(../images/cadre08_bas_d.jpg);
+	background-repeat: no-repeat;
+	height: 8px;
+	width: 9px;
+}
 /*forme*/
 #cadre01_milieu div {
 	margin: 6px;
@@ -638,6 +724,12 @@ input, select{
 	margin-bottom: 20px;
 	margin-left: 0px;
 }
+#cadre08_milieu form label {
+	display: block;
+	height: 30px;
+	color: #FFF;
+}
+
 
 /*menu*/
 #contenu #menu {
@@ -734,4 +826,36 @@ input, select{
 }
 #corps img {
 	padding: 10px;
+}
+#corps #login_titre {
+	width: 668px;
+	text-align: center;
+}
+#login_titre h1, #login_titre h2 {
+	color: #0F93A1;
+}
+#login_titre h1{
+	font-weight: normal;
+	font-size: 2.2em;
+	margin: 0px;
+	padding: 0px;
+}
+#login_titre h2 {
+	background-image: none;
+	width: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#login_titre h3 {
+	color: #006F3B;
+	font-size: 1.6em;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+#cadre08 input.gris {
+	background-image: url(../images/fond_input_gris.jpg);
+	background-repeat: repeat-x;
+	border: 1px solid #FFF;
+	height: 16px;
 }
