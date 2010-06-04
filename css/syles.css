@@ -106,6 +106,10 @@ a{
 	margin-bottom: 20px;
 	background-color: #B9B9B9;
 }
+.select_img {
+	background-color: #006F3C;
+}
+
 
 #contener #header {
 	margin: 0px;
@@ -970,4 +974,36 @@ a{
 	margin-right: 0px;
 	margin-bottom: 5px;
 	margin-left: 0px;
+}
+#corps #gallery {
+}
+#gallery #gallery_gauche {
+	width: 163px;
+	margin: 0px;
+	padding: 0px;
+}
+#gallery #gallery_gauche ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 163px;
+}
+#gallery_gauche ul li {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	width: 163px;
+}
+#gallery_gauche ul li.fleche img {
+	margin: 0px;
+	padding: 0px;
+}
+#gallery #gallery_droite {
+	padding-top: 40px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+#gallery_droite img {
+	background-color: #006F3C;
 }
