@@ -92,9 +92,20 @@ a{
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 20px;
+	background-color: #E1E1E1;
 }
 
-
+.zone02 {
+	background-image: url(../images/fond_zone02.jpg);
+	background-repeat: repeat-x;
+	border: 1px solid #000;
+	display: block;
+	width: 660px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+	background-color: #B9B9B9;
+}
 
 #contener #header {
 	margin: 0px;
@@ -936,15 +947,27 @@ a{
 	height: 19px;
 	font-size: 10px;
 }
-#corps div.zone01 h3 {
+#corps div.zone01 h3, #corps div.zone02 h3 {
 	color: #006F3B;
 	padding: 0px;
 	margin-top: 10px;
 	margin-right: 0px;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 	margin-left: 0px;
 }
-#corps div.zone01 p {
-	margin: 0px;
+#corps div.zone01 p, #corps div.zone02 p {
 	padding: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#corps div.zone02 ul {
+	list-style-image: url(../images/puce_vert.png);
+}
+#corps div.zone02 li {
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
 }
