@@ -859,3 +859,66 @@ input, select{
 	border: 1px solid #FFF;
 	height: 16px;
 }
+#corps #contact {
+}
+#corps #contact h2 {
+	background-image: url(../images/icone_contact.jpg);
+	background-repeat: no-repeat;
+	height: 30px;
+	padding-left: 60px;
+	padding-top: 16px;
+}
+
+#contact label {
+	display: inline;
+	margin-right: 0px;
+	margin-left: 30px;
+	width: 280px;
+	float: left;
+	margin-top: 20px;
+}
+#contact input.gold{
+	background-image: url(../images/fond_input_gold.jpg);
+	background-repeat: repeat-x;
+	border: 1px solid #BDC1A3;
+	height: 20px;
+	padding: 0px;
+	margin: 0px;
+}
+#contact textarea.gold{
+	background-image: url(../images/fond_input_gold_2.jpg);
+	background-repeat: repeat-x;
+	border: 1px solid #BDC1A3;
+	padding: 0px;
+	margin: 0px;
+	height: 143px;
+}
+#contact form label.bouton {
+	margin-top: 54px;
+	margin-left: 64px;
+	padding: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#contact form label.bouton input{
+	display: block;
+	margin-top: 20px;
+}
+#contact input.envoyer {
+	background-image: url(../images/fond_input_vert.jpg);
+	background-repeat: repeat-x;
+	color: #FFF;
+	font-weight: normal;
+	border: 1px solid #BDC1A3;
+	height: 19px;
+	font-size: 10px;
+}
+#contact input.effacer {
+	background-image: url(../images/fond_input_orange.jpg);
+	background-repeat: repeat-x;
+	color: #FFF;
+	font-weight: normal;
+	border: 1px solid #BDC1A3;
+	height: 19px;
+	font-size: 10px;
+}
